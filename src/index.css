@@ -1,0 +1,81 @@
+/* Add these styles */
+.locations {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.location-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.location-input input {
+  padding: 8px;
+  flex: 1;
+}
+
+.location-input button {
+  background: #28a745;
+  color: white;
+}
+
+.days-input {
+  width: 80px;
+}
+
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.remove-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.current-location-btn {
+  margin-bottom: 15px;
+  background: #17a2b8;
+}
+
+.generate-btn {
+  margin-top: 20px;
+  background: #007bff;
+  padding: 12px 25px;
+}
+
+.interests-input {
+  margin: 20px 0;
+}
+
+.interests-input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.itinerary {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
